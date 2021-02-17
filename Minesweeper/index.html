@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #main_canvas {
+            background-color: gray;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        };
+    </style>
 </head>
 <body>
-    <canvas id="main_canvas" style="width: 640px; height: 480px; background-color: black;"></canvas>
+    <canvas id="main_canvas" width="640" height="480"></canvas>
     <script src="js/constants.js"></script>
     <script src="js/mine_board.js"></script>
     <script src="js/timer_board.js"></script>
     <script src="js/remained_board.js"></script>
     <script src="js/tool_buttons.js"></script>
+    <script src="js/draw_elements.js"></script>
     <script src="js/run.js"></script>
 </body>
 </html>
